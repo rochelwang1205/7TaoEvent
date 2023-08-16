@@ -1,3 +1,134 @@
-.index-title {
-  font-size: 100px;
+// *{
+//   outline:2px solid red;
+// }
+//nav
+h1{
+  font-family:"Yeseva One";
+}
+//header
+header{
+  width:auto;
+  height:518px;
+  background-image: url('/images/event/13.jpg');
+  background-position: center;
+  background-size: cover;
+}
+header .date h2{
+  font-size: 64px;
+}
+
+//explore
+.explore div img{
+  width: 80px;
+}
+//event
+.event h2{
+  font-size: 64px;
+  line-height: 1;
+}
+// events list
+h2{
+  font-family: "Yeseva One";
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  font-size: 48px;
+}
+h3{
+  font-family: 'Noto Serif TC', sans-serif;
+}
+img{
+  display: block;
+  width:100%;
+}
+h3{
+  margin: 12px 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.bottom-btn{
+  padding: 12px 0px;
+}
+.btn-left{
+  height: 24px;
+  width: 24px;
+}
+.modal{
+  h4{
+    font-family: 'Noto Serif TC', sans-serif;
+  }
+}
+.btn-close{
+  opacity:1;
+}
+// online des
+.online-des div h2{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Noto Serif TC;
+}
+.online-des div .list p{
+  font-family: Noto Serif TC;
+}
+.online-p-border{
+  border-width: 0 0 0 0.375rem; 
+  border-color: #007bff;
+  border-style: solid;
+}
+.online-des div a{
+  font-size: 20px;
+  display: block;
+}
+//album line
+.album-line{
+  font-size: 32px;
+}
+.album-line .swiper-wrapper {
+  transition-timing-function: linear;
+}
+// album
+.mt-60 {
+  margin-top: 60px;
+}
+.h2-transform {
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
+li {
+  &:nth-child(2n) {
+    transform: rotate(2deg);
+  }
+  &:nth-child(3) {
+    transform: rotate(-2deg);
+  }
+}
+.item {
+  img {
+    object-fit: cover;
+    height: 274px;
+  }
+}
+//contact
+.follow input{
+  width: 100%;
+}
+.follow tr td a{
+  font-size: 20px;
+  font-weight: 700;
+  &:hover{
+    color: $secondary;
+  }
+}
+.icon-svg:hover{
+    fill: $secondary;
+}
+//call-to-action
+.callToAction div {
+  h3{
+  font-size: 32px;
+    }
+  h4{
+  font-size: 18px;
+  font-family: "Yeseva One";
+  } 
 }
