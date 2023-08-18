@@ -18,8 +18,18 @@ header .date h2{
 }
 
 //explore
-.explore div img{
+.explore div {
+  img{
   width: 80px;
+  @include laptopS{
+    width: 40px;
+  }
+  h4{
+    @include laptopS{
+      font-size: 16px;
+    }
+  }
+}
 }
 //event
 .event h2{
@@ -63,10 +73,15 @@ a{
   opacity:1;
 }
 // online des
-.online-des div h2{
+.online-des{
+  @include pad{
+    flex-direction: column;
+  }
+  div h2{
   font-size: 32px;
   font-weight: 700;
   font-family: Noto Serif TC;
+  }
 }
 .online-des div .list p{
   font-family: Noto Serif TC;
@@ -83,6 +98,9 @@ a{
 //album line
 .album-line{
   font-size: 32px;
+  @include laptopS{
+    font-size: 16px;
+  }
 }
 .album-line .swiper-wrapper {
   transition-timing-function: linear;
@@ -109,10 +127,16 @@ li {
   }
 }
 //contact
+.contact{
+  @include laptopS{
+    flex-direction: column;
+    gap:24px;
+  }
+}
 .follow input{
   width: 100%;
 }
-.follow tr td a{
+.follow a{
   font-size: 20px;
   font-weight: 700;
   &:hover{
