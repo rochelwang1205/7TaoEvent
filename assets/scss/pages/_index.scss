@@ -128,7 +128,7 @@ li {
 }
 //contact
 .contact{
-  @include laptopS{
+  @include laptop{
     flex-direction: column;
     gap:24px;
   }
