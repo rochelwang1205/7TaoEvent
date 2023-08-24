@@ -12,9 +12,15 @@ header{
   background-image: url('/images/event/13.jpg');
   background-position: center;
   background-size: cover;
+  h2{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+  }
 }
-header .date h2{
+header .date p{
   font-size: 64px;
+  font-family:"Yeseva One";
 }
 
 //explore

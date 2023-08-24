@@ -1,12 +1,30 @@
-nav img{
+nav .logo{
+    width: 100%;
+}
+nav .logo img{
     max-width: 53px;
+    vertical-align: middle;
+    @include padS{
+        width: 40px;
+    }
 }
 nav .search{
-    width: 335px;
+    width: 40%;
+    @include padS{
+        width:80%;
+    }
 }
 nav .search input {
     height:48px;
 }
 nav .function a{
     font-size: 18px;
+}
+// collaspe
+.collapse {
+    position: absolute;
+    z-index: 1;
+    background-color: #F3F1E5; /* 添加背景色，使其更加突出 */
+    width: 100%; /* 設置寬度 */
+    border-bottom: 3px solid $primary;
 }
