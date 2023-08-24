@@ -98,12 +98,23 @@ a{
 //album line
 .album-line{
   font-size: 32px;
+  font-family: 'Noto Serif TC', serif;
   @include laptopS{
     font-size: 16px;
   }
 }
 .album-line .swiper-wrapper {
   transition-timing-function: linear;
+}
+.album-line .swiper-slide{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    width: auto;
+    color: #FBFF22;
+    background: #000;
 }
 // album
 .mt-60 {
