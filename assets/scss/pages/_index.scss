@@ -24,7 +24,7 @@ header .date p{
 }
 
 //explore
-.explore div {
+.explore li {
   img{
   width: 80px;
   @include laptopS{
@@ -129,7 +129,7 @@ a{
 .h2-transform {
   transform: translate(-50%, -50%) rotate(-4deg);
 }
-li {
+.album li {
   &:nth-child(2n) {
     transform: rotate(2deg);
   }
